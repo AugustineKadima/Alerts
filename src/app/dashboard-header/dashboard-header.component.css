@@ -1,0 +1,67 @@
+#add-alert{
+    color: #252733;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+#search{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 20px;
+}
+
+#new{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 17px;
+}
+
+#user-photo{
+    width: 65px;
+    height: 65px;
+}
+
+#username{
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+    border-left: #252733 solid 1px;
+    padding-left: 20px;
+    height: 30px;
+}
+
+#notifications{
+    position: relative;
+    top: 5px;
+    
+}
+
+#primary{
+    border-radius: 50%;
+}
+
+#icon{
+    font-size: 44px;
+    color: #C5C7CD;
+}

@@ -1,0 +1,15 @@
+
+<div class="container-fluid">
+  <div class="row sidenav-parent">
+    <div class="col-md-2 sidenav">
+      <app-sidenav></app-sidenav>
+    </div>
+    <div class="col-md-10 dash-home">
+      <app-dash-home></app-dash-home>
+      
+      <app-signup (findUser) = createNewUser($event)></app-signup>
+      <app-create-alert (blackoutStatus) = findBlackout($event)></app-create-alert>
+    </div>
+  </div>
+</div>
+  

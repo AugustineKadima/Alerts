@@ -1,0 +1,59 @@
+<app-signup-header></app-signup-header>
+<div class="container-fluid">
+    <div class="row login-parent-container">
+        <p id="login-text">Signup</p>
+        <div class="login-container">
+            <form (ngSubmit)="createUserAccount()" #createUserForm="ngForm">
+                <div class="form-group">
+                    <!-- <mat-icon id="email-icon">account_circle</mat-icon> -->
+                    <input type="text" #fname = "ngModel" [(ngModel)]="user.fname" required name="fname" id="fname" class="form-control" placeholder="First Name">
+                </div>
+
+                <div class="form-group">
+                    <!-- <mat-icon id="email-icon">account_circle</mat-icon> -->
+                    <input type="text" #lname = "ngModel" name="lname" id="lname" [(ngModel)]="user.lname" required class="form-control" placeholder="Last Name">
+                </div>
+
+                <div class="form-group">
+                    <!-- <mat-icon id="email-icon">email</mat-icon> -->
+                    <input type="text" #email ="ngModel" name="email" id="email" [(ngModel)]="user.email" required class="form-control" placeholder="email Address">
+                </div>
+
+                <div class="form-group"  id="location">
+                    <!-- <mat-icon id="place">place</mat-icon> -->
+                    <select id="location" #location = "ngModel" name="location" [(ngModel)]="user.location" required class="form-control">
+                        <!-- <option  placeholder="select location" selected>Select Location</option> -->
+                        <option value="donholm">Donholm</option>
+                        <option value="buruburu">Buruburu</option>
+                        <option value="dagoretti">Dagoretti</option>
+                        <option value="dandora">Dandora</option>
+                        <option value="embakasi">Embakasi</option>
+                        <option value="hurlingham">Hurlingham</option>
+                        <option value="karen">Karen</option>
+                        <option value="umoja">Umoja</option>
+                        <option value="kileleshwa">Kileleshwa</option>
+                        <option value="kilimani">Kilimani</option>
+                        <option value="lavington">Lavington</option>
+                        <option value="langata">Langata</option>
+                        <option value="kitisuru">Kitisuru</option>
+                        <option value="kitengela">Kitengela</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <!-- <mat-icon id="email-icon">lock</mat-icon> -->
+                    <input type="text" name="password" #password ="ngModel" [(ngModel)]="user.password" required id="password" class="form-control" placeholder="Password">
+                </div>           
+
+                <button class="btn btn-login" type="submit">Signup</button>
+                <div class="container-fluid member-parent">
+                    <div class="row" id="member">
+                        <div class="col-md-12"> Already a member?<a href="/login"><p> Login</p> </a> </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

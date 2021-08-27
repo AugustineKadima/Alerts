@@ -1,0 +1,205 @@
+/* Hero section */
+.hero-section{
+    padding-top: 150px;
+    background-color: #5B77D9;
+    padding-left: 170px;
+    padding-right: 170px;
+    overflow: hidden;
+    height: 850px;
+}
+
+/* Heading */
+#heading{
+    color: #F1CE6C;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+/* Sub-heading */
+#sub-heading{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Hero text */
+#hero-text{
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* Hero login */
+.hero-login{
+    border: solid white 3px;
+    border-radius: 20px !important;
+    width: 200px;
+    height: 55px;
+    background-color: #5B77D9;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero-login:hover{
+    background-color: white;
+    color: #5B77D9;
+}
+
+/* Hero signup */
+.hero-sign-up{
+    background-color: white;
+    color: #5B77D9;
+    border-radius: 20px !important;
+    width: 200px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero-sign-up:hover{
+    background-color: #5B77D9;
+    color: white;
+    border: solid white 3px;
+}
+
+/* Button group */
+.container-custom{
+    display: inline-flex;
+    gap: 30px;
+}
+
+/* Who section */
+.who-section{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* Who section heading */
+#who-heading{
+    font-weight: bold;
+    font-size: 48px;
+    color: #F1CE6C;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+/* Who section text */
+.who-text{
+    font-size: 24px;
+    text-align: right;
+}
+
+#who-text-2{
+    margin-top: 30px;
+}
+
+/* divider container*/
+.divider-container{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.divider{
+    width: 100%;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #5B77D9;
+    margin-bottom: 150px;
+}
+
+/* Alerts section */
+.alerts-section{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 150;
+}
+
+/* alerts heading */
+#alerts-heading{
+    font-weight: bold;
+    font-size: 48px;
+    color: #F1CE6C;
+}
+
+/* Alerts text */
+#alerts-text{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+/* alerts image */
+#power{
+    width: 800px;
+    margin-bottom: 150px;
+}
+
+/* Blackout section */
+.blackout-section{
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-bottom: 150px;
+}
+
+#blackout-heading{
+    color: #F1CE6C;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.blackout-text{
+    font-size: 24px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* blackout section image */
+#push-notification{
+    width: 800px;
+    
+}
+
+/* get started button group */
+.get-started-button-group{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-buttons{
+    width: 200px;
+    height: 55px;
+}
+
+.get-started-login{
+    border: solid #5B77D9 3px;
+    border-radius: 20px;
+    color: #5B77D9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.get-started-login:hover{
+    background-color: #5B77D9;
+    color: white;
+}
+
+.get-started-signup{
+    background-color: #5B77D9;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.get-started-signup:hover{
+    background-color: white;
+    color: #5B77D9;
+    border: solid #5B77D9 3px;
+}

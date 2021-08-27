@@ -1,0 +1,86 @@
+<div class="container-fluid">
+    <div class="row" id="sidenav-container">
+        <!-- Side Bar -->
+        <div class="col-md-2" id="sidenav">
+            <app-sidenav></app-sidenav>
+        </div>
+        <!-- content area -->
+        <div class="col-md-10">
+            <app-dashboard-header></app-dashboard-header>
+
+            <!-- Form -->
+            <form>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Add Button -->
+                        <div class="col-md-3">
+                            <button class="btn add-button" (click)="createBlackoutAlert()" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <img src="../../assets/plus.png" alt="plus" id="plus">
+                            </button>
+                            
+                        </div>
+                        <!-- Switch -->
+                        <div class="col-md-3">
+                            <div class="switch">
+                                <p>Off</p>
+                                <div class="form-check form-switch">
+                                    <!-- <label for="switch" id="switch-label-on">Off</label>
+                                    <label for="switch" id="switch-label-on">On</label> -->
+                                    <input class="form-check-input" type="checkbox" id="switch">
+                                </div>
+                                <p>On</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row location-details">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Map -->
+                                <div class="col-md-8 left" id="map-container">
+                                    <img src="../../assets/Rectangle 44.png" alt="map">
+                                </div>
+                                <!-- Zone data -->
+                                <div class="col-md-4">
+                                    <!-- Zone Alerts -->
+                                    <div class="zone">
+                                        <p>Zone Alerts</p>
+                                        <p id="zone">17</p>
+                                    </div>
+                                    <!-- Reported Fixed -->
+                                    <div class="reports">
+                                        <p>Reported Fixed</p>
+                                        <p id="reports">2</p>
+                                    </div>
+                                    <!-- KPLC Average Response Time -->
+                                    <div class="response">
+                                        <p>KPLC Average response time</p>
+                                        <p id="response">3h 8m</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-success">Alert Created</p>
+                        <!-- Codepen code -->
+                        <div class="success-animation">
+                            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" /><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

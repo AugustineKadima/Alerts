@@ -1,0 +1,223 @@
+.card{
+    border-color: grayscale/divider;
+    width: 20rem;
+    height: 10rem;
+}
+
+.card-alerts{
+    width: 40rem;
+    background: #FFFFFF;
+    margin-left: 3%;
+    height: 20rem;
+}
+
+.card-alerts img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-body{
+    gap: 2%;
+}
+
+form{
+    border: solid #DFE0EB 2px;
+    border-radius: 20px;
+}
+
+.card-title1{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #9FA2B4;
+}
+
+.card-text1{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+.card-title2{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.card-text2{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+.card-title3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #9FA2B4;
+}
+
+.card-text3{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+.card-alerts{
+    height: 336px;
+    right: 576px;
+    top: 0px;
+    border-radius: 1rem;
+    width: 40rem;
+    padding: 0px;
+    margin-top: 2rem;
+}
+
+#card-alerts{
+    border: solid #DFE0EB 2px;
+}
+
+.card-alerts img{
+    width: 100%;
+    height: 100%;
+}
+
+#card-alerts-img{
+    background-color: #F7F8FC;
+}
+
+.card-title4{
+    height: 24px;
+    left: 32px;
+    right: 178px;
+    top: 32px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+
+.card-text4{
+    font-family: Mulish;
+    margin-top:-10% ;
+    margin-left: 80%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #5B77D9;
+}
+
+.personal{
+    height: 16px;
+    left: 32px;
+    right: 178px;
+    top: 64px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+
+.list-group-flush{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #252733;
+    margin: 5%;
+}
+
+.list{
+    margin-top:-4% ;
+    margin-left: 80%;
+    color: #9FA2B4;
+}
+
+.btn-warning{
+    margin-top:-4% ;
+    margin-left: 80%;
+    font-size: 10px;
+    color: #fff;
+}
+
+.btn-success{
+    margin-top:-4% ;
+    margin-left: 80%;
+    font-size: 10px;
+    color: #fff;
+}
+
+.btn1{
+    margin-top:-4% ;
+    margin-left: 80%;
+    width: 20%;
+    font-size: 10px;
+    border: white;
+}
+
+#save{
+    width: 150px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+input{
+    border: none !important;
+    border-bottom: solid 1px #5B77D9 !important;
+    border-radius: none !important;
+    height: 55px;
+    /* background-color: ; */
+    position: relative;
+}
+
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#nairobi-estates{
+    background-color: #fff;
+    color: black;
+    border: none !important;
+    border-bottom: solid 1px #5B77D9 !important;
+    border-radius: none !important;
+    height: 55px;
+    width: 20rem;
+}

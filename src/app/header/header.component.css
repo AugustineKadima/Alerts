@@ -1,0 +1,34 @@
+.header{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.menu{
+    display: inline-flex;
+    gap: 30px;
+    color: #5B77D9;
+    font-weight: bold;
+    font-size: 24px;
+    list-style: none;
+    position: relative;
+    top: 15px;
+}
+
+li{
+    cursor: pointer;
+    color: #5B77D9;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    cursor: pointer;
+}

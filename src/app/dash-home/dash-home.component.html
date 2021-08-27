@@ -1,0 +1,182 @@
+<app-dashboard-header></app-dashboard-header>
+  <div class="cards-container">
+    <!-- Cards -->
+  <div id="alert" class="row">
+    <div class="col-md-3 col-sm-6 col-12">
+      <div class="card">
+        <!-- blackout card -->
+        <div class="card-body">
+          <h5 class="black">Blackouts</h5>
+          <h1 class="blackout"><b style="color: black">60</b></h1>
+        </div>
+      </div>
+    </div>
+    <!-- in an hour card -->
+    <div class="col-md-3 col-sm-6 col-12">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="Hr">In the last Hr</h5>
+          <h1 class="last"><b style="color: black">16</b></h1>
+        </div>
+      </div>
+    </div>
+    <!-- affected zone card -->
+    <div class="col-md-3 col-sm-6 col-12">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="Affected">Zone Affected</h5>
+          <h1 class="zones"><b style="color: black">43</b></h1>
+        </div>
+      </div>
+    </div>
+    <!-- resolved -->
+    <div class="col-md-3 col-sm-6 col-12">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="lved">Resolved</h5>
+          <h1 class="resolved"><b style="color: black">64</b></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="graph-container">
+    <div class="row Graph-details">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Graph-->
+          <div class="col-md-8 left imgExcapeBlackout"><img src="/assets/blackoutOverview.jpg" alt=""></div>
+          <!-- Zone data -->
+          <div class="col-md-4">
+            <!-- Zone Alerts -->
+            <div class="zone">
+              <p>Resolved</p>
+              <p id="zone">64</p>
+            </div>
+            <!-- Reported Fixed -->
+            <div class="reports">
+              <p>Getting Fixed</p>
+              <p id="reports">26</p>
+            </div>
+            <!-- KPLC Average Response Time -->
+            <div class="response">
+              <p>Average first response time</p>
+              <p id="response">33m</p>
+            </div>
+            <!-- Average response time -->
+            <div class="response-time">
+              <p>Average response time</p>
+              <p id="response">3h 8m</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Graph section -->
+  <!-- create alert card-->
+
+  <!--  Created Alerts Section -->
+  <div id="alerts-section" class="row">
+    <!-- Created Alerts -->
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body created-alerts">
+          <h5 class="card-title4">Created Alerts</h5>
+          <p class="personal">Personal: <b style="color: black">Alerts</b></p>
+          <p class="card-text4"><a href="#">View details</a></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            Donholm Phase 5 power outage
+            <p class="list">Most Recent</p>
+          </li>
+          <li class="list-group-item">
+            Kisumu Ndogo power outage
+            <p class="list">2 Days ago</p>
+          </li>
+          <li class="list-group-item">
+            Lights back donholm
+            <p class="list">A few minutes ago</p>
+          </li>
+          <li class="list-group-item">
+            Lights back Kisumu Ndogo
+            <p class="list">2 Days ago</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Create quick alert -->
+    <!-- <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title4">Create Quick Alert</h5>
+          <p class="personal">Today</p>
+          <p class="card-text4">View detail</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+              style="border-radius: 50px"
+            /><label
+              class="form-check-label"
+              for="flexCheckDefault"
+              style="margin-left: 5%"
+              >Donholm Power outage</label
+            >
+            <button type="button" class="btn btn-warning">URGENT</button>
+          </li>
+          <li class="list-group-item">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+              style="border-radius: 50px; gap: 2%"
+            /><label
+              class="form-check-label"
+              for="flexCheckDefault"
+              style="margin-left: 5%"
+            >
+              Donholm Power outage</label
+            ><button
+              type="button"
+              class="btn btn-success"
+              style="background-color: #29cc97"
+            >
+              NEW
+            </button>
+          </li>
+          <li class="list-group-item">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+              style="border-radius: 50px"
+            /><label
+              class="form-check-label"
+              for="flexCheckDefault"
+              style="margin-left: 5%"
+              >Kisumu ndogo Power outage</label
+            >
+            <button
+              type="button"
+              class="btn btn1"
+              style="background-color: white"
+            >
+              PUBLISH ALERT
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+  </div>
+  <!-- end of alert card -->
+  
